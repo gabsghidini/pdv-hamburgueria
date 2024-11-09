@@ -35,6 +35,8 @@ async function renderItems() {
         <h2>R$ ${item.price.toFixed(2).replace(".", ",")}</h2>
         <h3>${item.type}</h3>
         `
+
+        li.className = "MainContent__Section--Items"
         return li;
     })
 

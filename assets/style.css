@@ -17,7 +17,7 @@ body {
 
 /* SIDEBAR */
 .Sidebar__Aside {
-    height: 100vh;
+    min-height: 100vh;
 
     flex: 3;
 
@@ -64,9 +64,83 @@ body {
 
 /* MAIN CONTENT */
 .MainContent__Section {
-    height: 100vh;
+    min-height: 100vh;
 
     flex: 9;
 
     background-color: var(--background-gray);
 }
+
+.MainContent__Section--SearchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem 0 0 2.5rem;
+    gap: 1rem;
+}
+
+.MainContent__Section--SearchInput {
+    border-radius: 0.25rem;
+    border: 0.0625rem solid gray;
+
+    height: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.MainContent__Section--SearchButton {
+    width: 2rem;
+    height: 2rem;
+}
+
+#MainContent__Section--ItemsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.MainContent__Section--Items {
+    list-style: none;
+    width: 18.75rem;
+
+    background-color: white;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContent__Section--Items > img {
+    height: 10rem;
+    width: 10rem;
+
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.MainContent__Section--Items > h1, h2, h3 {
+    margin: 0;
+    width: auto;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.MainContent__Section--Items > h1 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.MainContent__Section--Items > h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: red;
+}
+
+.MainContent__Section--Items > h3 {
+    font-size: 0.75rem;
+    color: gray;
+    margin: 0 0 0.5rem 0;
+}
+
