@@ -1,0 +1,72 @@
+:root {
+    --orange: #F95E07;
+    --background-gray: #F5F5F6;
+    --black: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* SIDEBAR */
+.Sidebar__Aside {
+    height: 100vh;
+
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Sidebar__Aside--Image {
+    margin: 3rem 0 0 0;
+}
+
+.Sidebar__Aside--ActionList {
+    margin: 3rem 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Sidebar__Aside--Button {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 600;
+
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    /* text-align: left; */
+
+    padding: 1rem;
+
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.Sidebar__Aside--PrimaryButton {
+    border: 0.1rem solid var(--orange);
+    border-radius: 0.75rem;
+
+}
+
+
+/* MAIN CONTENT */
+.MainContent__Section {
+    height: 100vh;
+
+    flex: 9;
+
+    background-color: var(--background-gray);
+}

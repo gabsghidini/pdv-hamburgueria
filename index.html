@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Ponto de Venda</title>
+</head>
+<body>
+    <main id="main">
+        <aside class="Sidebar__Aside">
+            <img class="Sidebar__Aside--Image" src="./assets/images/logo.png" alt="Logo">
+            <ul class="Sidebar__Aside--ActionList">
+                <li>
+                    <button class="Sidebar__Aside--Button Sidebar__Aside--PrimaryButton" onclick="viewCart()">
+                        Ver carrinho
+                    </button>
+                </li>
+                <li>
+                   <button class="Sidebar__Aside--Button" onclick="clearCart()">
+                        Limpar carrinho
+                   </button> 
+                </li>
+            </ul>
+        </aside>
+        <section class="MainContent__Section">
+            <div>
+                <input type="text">
+                <button>Procurar</button>
+            </div>
+
+            <ul>
+                <li>itens</li>
+            </ul>
+        </section>
+    </main>
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+{
+    "itens": [
+      {
+        "id": "h01",
+        "nome": "Hamburguer Clássico",
+        "preco": 18.90,
+        "tipo": "hamburguer"
+      },
+      {
+        "id": "h02",
+        "nome": "Hamburguer Bacon",
+        "preco": 22.50,
+        "tipo": "hamburguer"
+      },
+      {
+        "id": "h03",
+        "nome": "Hamburguer Vegano",
+        "preco": 20.00,
+        "tipo": "hamburguer"
+      },
+      {
+        "id": "b01",
+        "nome": "Batata Frita Pequena",
+        "preco": 8.50,
+        "tipo": "batata"
+      },
+      {
+        "id": "b02",
+        "nome": "Batata Frita Média",
+        "preco": 10.00,
+        "tipo": "batata"
+      },
+      {
+        "id": "b03",
+        "nome": "Batata Frita Grande",
+        "preco": 12.50,
+        "tipo": "batata"
+      },
+      {
+        "id": "c01",
+        "nome": "Combo Hamburguer + Batata + Refrigerante",
+        "preco": 29.90,
+        "tipo": "combo"
+      },
+      {
+        "id": "c02",
+        "nome": "Combo Duplo + Batata + Refrigerante",
+        "preco": 35.90,
+        "tipo": "combo"
+      },
+      {
+        "id": "r01",
+        "nome": "Coca-Cola 350ml",
+        "preco": 6.00,
+        "tipo": "refrigerante"
+      },
+      {
+        "id": "r02",
+        "nome": "Pepsi 350ml",
+        "preco": 6.00,
+        "tipo": "refrigerante"
+      },
+      {
+        "id": "r03",
+        "nome": "Água Mineral 500ml",
+        "preco": 3.00,
+        "tipo": "refrigerante"
+      }
+    ]
+  }
+  
