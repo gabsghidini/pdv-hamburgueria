@@ -1,0 +1,79 @@
+[
+  {
+    "id": "h01",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5irRubGUnOpdSWCC7aMqm58x87ZsMQS6eA&s",
+    "name": "Hamburguer Clássico",
+    "price": 18.90,
+    "type": "hamburguer"
+  },
+  {
+    "id": "h02",
+    "img": "https://cdn.folhape.com.br/img/c/1200/900/dn_arquivo/2023/01/brabomeltcrispy.jpg",
+    "name": "Hamburguer Bacon",
+    "price": 22.50,
+    "type": "hamburguer"
+  },
+  {
+    "id": "h03",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJuJC5sHM33FBMkLc4HR0bKfp9eZzhElDZMkFdjD49iE-Z5MCofxuNWS87NqxQS795qkIDgQrrdlXE23tHbjRebA2Bm4zhS-wvVDHSlPGKBZj8O3TomnZSc3__KHVrZMYZgfsjgwtWoWP3/s1600/BK_Web_VeggieBurguer_detail.png",
+    "name": "Hamburguer Vegano",
+    "price": 20.00,
+    "type": "hamburguer"
+  },
+  {
+    "id": "b01",
+    "img": "https://images.tcdn.com.br/img/img_prod/341142/caixinha_embalagem_para_batata_frita_preto_295_1_c2c96a587ee89d7c64cc7db5e3d9aa7c.jpg",
+    "name": "Batata Frita Pequena",
+    "price": 8.50,
+    "type": "batata"
+  },
+  {
+    "id": "b02",
+    "img": "https://cdn.awsli.com.br/800x800/1209/1209015/produto/46152804/a65bef704d.jpg",
+    "name": "Batata Frita Média",
+    "price": 10.00,
+    "type": "batata"
+  },
+  {
+    "id": "b03",
+    "img": "https://loja.barracadoze.com.br/wp-content/uploads/2020/10/varias-receitas-8.jpg",
+    "name": "Batata Frita Grande",
+    "price": 12.50,
+    "type": "batata"
+  },
+  {
+    "id": "c01",
+    "img": "https://s3-sa-east-1.amazonaws.com/loja2/9020afa8639b1831bbfa8e1639ff2b1b.jpg",
+    "name": "Combo Hamburguer + Batata + Refrigerante",
+    "price": 29.90,
+    "type": "combo"
+  },
+  {
+    "id": "c02",
+    "img": "https://files.menudino.com/cardapios/7288/140.jpg",
+    "name": "Combo Duplo + Batata + Refrigerante",
+    "price": 35.90,
+    "type": "combo"
+  },
+  {
+    "id": "r01",
+    "img": "https://andinacocacola.vtexassets.com/arquivos/ids/158244/Coca-Cola-Original-350ml-Lata---110130_COCA_PAI.png?v=638628901095270000",
+    "name": "Coca-Cola 350ml",
+    "price": 6.00,
+    "type": "refrigerante"
+  },
+  {
+    "id": "r02",
+    "img": "https://static.clubeextra.com.br/img/uploads/1/888/27257888.jpg",
+    "name": "Pepsi 350ml",
+    "price": 6.00,
+    "type": "refrigerante"
+  },
+  {
+    "id": "r03",
+    "img": "https://tb0932.vtexassets.com/arquivos/ids/162415-800-auto?v=637705334878500000&width=800&height=auto&aspect=true",
+    "name": "Água Mineral 500ml",
+    "price": 3.00,
+    "type": "refrigerante"
+  }
+]
